@@ -1,0 +1,29 @@
+.nav_wrapper {
+  text-align: center;
+  margin-top: 0;
+}
+
+.nav_wrapper ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: var(--blue-500);
+}
+
+.nav_wrapper ul li {
+  padding: 1rem 2rem;
+  border-right: 1px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav_wrapper ul li:last-child {
+  border-right: none;
+}
+
+.nav_wrapper ul li a:hover,
+.nav_wrapper ul li a:focus {
+  text-decoration: underline;
+}

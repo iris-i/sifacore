@@ -1,12 +1,33 @@
 :root {
+  /* Typography */
+  --base-font-size: 16px;
+  --scale-factor: 1.5;
+  --line-height: 2;
+  /* Colors */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: var(--blue-100);
+  --white: #f4f6fc;
+  --gray-light: #eeeef0;
+  --black: #000;
+  --blue-100: #050a30;
+  --blue-200: #002f69;
+  --blue-300: #12229d;
+  --blue-400: #233dff;
+  --blue-500: #5cb6f9;
+  --blue-600: #cae8ff;
+  /* Breakpoints */
+  --mobile: 480px;
+  --tablet: 768px;
+  --desktop: 1024px;
+  --desktop-lg: 1200px;
+
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: #0a0a0a; */
+    /* --foreground: #ededed; */
   }
 }
 
@@ -19,15 +40,28 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: var(--base-font-size);
+  line-height: var(--line-height);
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: var(--blue-500);
+  padding: 2rem 0;
 }
 
 a {
@@ -39,4 +73,38 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --scale-factor-calculated: var(--scale-factor);
+  font-size: calc(var(--base-font-size) * var(--scale-factor-calculated));
+}
+
+h1 {
+  --scale-factor-calculated: calc(var(--scale-factor) * var(--scale-factor) * var(--scale-factor));
+}
+
+h2 {
+  --scale-factor-calculated: calc(var(--scale-factor) * var(--scale-factor));
+}
+
+h3 {
+  --scale-factor-calculated: calc(var(--scale-factor));
+}
+
+h4,
+h5,
+h6 {
+  --scale-factor-calculated: 1;
+}
+
+.all-caps-heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }

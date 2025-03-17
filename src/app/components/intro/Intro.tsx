@@ -13,7 +13,7 @@ const Intro = () => {
   } = styles;
 
   return (
-    <section className={intro_wrapper}>
+    <section className={`section-padding ${intro_wrapper}`}>
       <div className={intro}>
         <h2 className={`text-40 ${intro_title}`}>Sifacore is built on our innovative outlook on upcoming technology trends.</h2>
         <p className="text-28">We provide comprehensive technology solutions tailored for forward-thinking enterprises.</p>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import styles from "./hero.module.css"
-import heroImage from "../../../public/assets/hero.jpg"
+import heroImage from "../../../../public/assets/hero.jpg"
 import Logo from "./Logo";
 
 let {

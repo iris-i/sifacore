@@ -58,6 +58,10 @@ body {
   padding: 0 1rem;
 }
 
+.section-padding {
+  padding: var(--section-vertical-padding) 0;
+}
+
 header {
   background-color: var(--blue-500);
   padding: 2rem 0;
@@ -103,7 +107,7 @@ a {
 
 .text-20 {
   font-size: 1.2500em;
-  line-height: 1.0000em;
+  line-height: 1.5000em;
 }
 
 .text-18 {

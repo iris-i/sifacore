@@ -1,0 +1,19 @@
+.solutions_item {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px
+}
+
+/* Alternate background color for odd items */
+.solutions_item:nth-child(odd) {
+  background-color: var(--blue-500)
+}
+
+.solutions_item_title {
+  color: var(--blue-300);
+  padding-bottom: 1.5rem;
+  line-height: normal;
+}

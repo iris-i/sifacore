@@ -119,3 +119,79 @@ a {
   font-size: 1.0000em;
   line-height: 1.2500em;
 }
+
+/* Form styles */
+form {
+  margin-top: 2rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: .5rem;
+  margin-right: 10px;
+}
+
+input,
+textarea {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--gray-light);
+  background-color: transparent;
+  color: white;
+}
+
+textarea {
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  padding: .5rem 2rem;
+  border: 0;
+  border-radius: 45px;
+  background-color: var(--blue-200);
+  color: white;
+}
+
+.button:has('a'):hover {
+  background-color: var(--blue-500);
+  text-decoration: underline;
+  color: black;
+}
+
+.button-large {
+  padding: .5rem 2rem;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.button-light {
+  background-color: var(--blue-500);
+  color: black;
+}
+
+.button-light:hover {
+  background-color: var(--blue-300);
+  text-decoration: underline;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.form-group * {
+  flex: 3;
+}
+
+.form-group label {
+  flex: 1;
+}

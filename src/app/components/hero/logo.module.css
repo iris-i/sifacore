@@ -1,6 +1,16 @@
-.logo {
+.logo,
+.logo_footer {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
   letter-spacing: 2px;
+}
+
+.logo_footer {
+  align-items: center;
+}
+
+.logo-footer-text {
+  color: white;
+  font-weight: normal;
 }

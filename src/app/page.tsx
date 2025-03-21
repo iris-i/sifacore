@@ -4,6 +4,7 @@ import Navigation from "./components/nav/Navigation";
 import Intro from "./components/intro/Intro";
 import Solutions from "./components/solutions/Solutions";
 import SolutionsGrid from "./components/solutions/SolutionsGrid";
+import Footer from "./components/footer/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Intro />
       <Solutions />
       <SolutionsGrid />
+      <Footer />
     </div>
   );
 }

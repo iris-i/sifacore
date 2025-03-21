@@ -26,13 +26,13 @@ const Solutions = () => {
         </div>
         <div className={`${solutions_images}`}>
           <div className={`${solutions_image_1} ${solutions_image}`}>
-            <Image src={solutions_1} alt="" fill={true} objectFit="cover" />
+            <Image src={solutions_1} alt="" fill={true} style={{ objectFit: "cover" }} />
           </div>
           <div className={`${solutions_image_2} ${solutions_image}`}>
-            <Image src={solutions_2} alt="" fill={true} objectFit="cover" />
+            <Image src={solutions_2} alt="" fill={true} style={{ objectFit: "cover" }} />
           </div>
           <div className={`${solutions_image_3} ${solutions_image}`}>
-            <Image src={solutions_3} alt="" fill={true} objectFit="cover" />
+            <Image src={solutions_3} alt="" fill={true} style={{ objectFit: "cover" }} />
           </div>
         </div>
       </div>

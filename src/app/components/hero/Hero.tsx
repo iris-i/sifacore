@@ -29,7 +29,7 @@ const Hero = () => {
             />
           </div>
           <div className={hero_text_container}>
-            <Logo logoImg="" variant="header" />
+            <Logo variant="header" />
             <h2 className={`text-76 ${hero_title}`}>Enterprise technology solutions</h2>
             <p className={`text-28 ${hero_text}`}>Your partner in cutting-edge IT solutions, cybersecurity, and strategic investments.</p>
           </div>

@@ -1,0 +1,27 @@
+.footer_wrapper {
+  background-color: var(--blue-100);
+  color: white;
+}
+
+.footer {
+  max-width: var(--desktop);
+}
+
+
+.footer_content img {
+  display: none;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    display: grid;
+  }
+
+  .footer_content img {
+    display: block;
+  }
+}

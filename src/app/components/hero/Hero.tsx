@@ -4,10 +4,9 @@ import styles from "./hero.module.css"
 import heroImage from "../../../../public/assets/hero.jpg"
 import Logo from "./Logo";
 
-let {
+const {
   hero,
-  hero_image,
-  logo, hero_title,
+  hero_title,
   hero_text,
   hero_image_container,
   hero_text_container

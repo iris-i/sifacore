@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import styles from './intro.module.css';
-import dots from '../../../../public/assets/dots.svg'
 
 const Intro = () => {
-  let {
+  const {
     intro,
     intro_wrapper,
     intro_button,

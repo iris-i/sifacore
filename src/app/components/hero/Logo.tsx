@@ -6,7 +6,7 @@ interface LogoProps {
   variant: LogoVariant;
 }
 
-let { logo, logo_footer } = styles;
+const { logo, logo_footer } = styles;
 
 
 const HeaderLogo = ({ variant }: LogoProps) => (

@@ -1,6 +1,3 @@
-import styles from './button.module.css';
-
-
 interface ButtonProps {
   size: 'large' | 'small';
   variant: 'dark' | 'light';

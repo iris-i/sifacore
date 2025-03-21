@@ -4,8 +4,7 @@ import solutions_1 from "../../../../public/assets/solutions-1.jpg";
 import solutions_2 from "../../../../public/assets/solutions-2.jpg";
 import solutions_3 from "../../../../public/assets/solutions-3.jpg";
 
-
-let {
+const {
   solutions_wrapper,
   solutions,
   solutions_text,

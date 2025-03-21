@@ -3,7 +3,7 @@ import SolutionsItem from "./SolutionsItem";
 import solutionsData from "../../../data/solution-items.json";
 
 
-let { solutions_grid, solutions_grid_wrapper } = styles;
+const { solutions_grid, solutions_grid_wrapper } = styles;
 
 const SolutionsGrid = () => {
   return (

@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./navigation.module.css";
 
 export default function Navigation() {
-  let { nav_wrapper } = styles;
+  const { nav_wrapper } = styles;
   return (
     <nav className={`text-20 ${nav_wrapper}`}>
       <ul>

@@ -20,7 +20,7 @@ const Footer = () => {
             />
           </div>
           <div className={`${styles.footer_contact}`}>
-            <h2 className="text-18">Contact us</h2>
+            <h2 id="contact" className="text-18">Contact us</h2>
             <ContactForm />
           </div>
         </div>

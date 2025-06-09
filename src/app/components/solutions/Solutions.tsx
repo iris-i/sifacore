@@ -20,7 +20,7 @@ const Solutions = () => {
     <section className={`section-padding ${solutions_wrapper}`}>
       <div className={solutions}>
         <div className={solutions_text}>
-          <h2 className={`text-40 all-caps-heading ${solutions_text}`}> Our Enterprise Solutions </h2>
+          <h2 id="solutions" className={`text-40 all-caps-heading ${solutions_text}`}> Our Enterprise Solutions </h2>
           <p className="text-20">SifaCore Technology LLC is a SMB providing innovative technology solutions and Capital Investment to government and commercial entities. In building the company of the future, we have a vast resource of technology professionals and consultants who are dedicated to providing innovative and tailored IT, Telecommunications and Web Design solutions to an extensive array of industries.</p>
         </div>
         <div className={`${solutions_images}`}>

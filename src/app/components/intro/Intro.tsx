@@ -14,7 +14,7 @@ const Intro = () => {
   return (
     <section className={`section-padding ${intro_wrapper}`}>
       <div className={intro}>
-        <h2 className={`text-40 ${intro_title}`}>Sifacore is built on our innovative outlook on upcoming technology trends.</h2>
+        <h2 id="about-us" className={`text-40 ${intro_title}`}>Sifacore is built on our innovative outlook on upcoming technology trends.</h2>
         <p className="text-28">We provide comprehensive technology solutions tailored for forward-thinking enterprises.</p>
         <div className={intro_button_wrapper}>
           <Link href="#contact-us" className={intro_button_link}>

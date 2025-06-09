@@ -1,6 +1,5 @@
 'use client'
 import { useForm, ValidationError } from '@formspree/react';
-import Button from '../atoms/Button';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID);
